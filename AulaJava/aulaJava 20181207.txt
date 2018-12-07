@@ -1,0 +1,55 @@
+Aula Java : 07/12/2018
+
+-Encapsulamento
+-Construtor
+
+- Composição/Associação -> direta
+			-> composição
+			-> agregação
+
+- Herança -> Classe abstrata
+
+-Polimorfismo -> Interfaces
+		-> Default Methods
+
+design pattern: padrão de projeto. Dá pra achar o código pronto de alguns projetos.
+
+Relacionamentos:
+
+Associação:
+Direta: usa a frase "Tem um ..." e é ligação fraca.
+Composição: usa a frase "Composto por..." e é ligação forte. ( usa um losango preto na ligação); 
+Junta as classes com o construtor.Para ter um relacionamento forte, só pode ter um construtor.
+
+Agregação: usa a frase " Parte de ..." e é ligação fraca.
+
+Construtor: nome da classe publico com o nome em maiusculo. Quando instancia a classe, o construtor inicia junto.
+Uma classe pode ter vários construtores porém com parâmetros diferentes. os construtores são os responsáveis por criar o objeto em memória
+
+Herança : usa a frase "é um" composto por uma super classe com as subclasses. Relacionamento forte. 
+Não é legal usar quando o projeto é muito grande e ter muitos relacionamentos.
+As subclasses herdam tudo da superclasse. Mas a superclasse nao recebe nada das subclasses..
+O melhor é usar o polimorfismo.
+Super classe sempre abstract. Pois não é instanciada. Centraliza dados para não ter duplicação.
+
+Getters and Setters: Para se ter acesso a algum atributo ou método que esteja encapsulado utiliza-se 
+o conceito de get e set. Por definição, com SET é feita uma atribuição a algum atributo, 
+ou seja, define, diz o valor que algum atributo deve ter. E  com GET é possível recuperar esse valor. 
+
+**Métodos declarados como final não podem ser redefinidos e, portanto não são passíveis de invocação polimórfica da parte de seus descendentes; e
+Métodos declarados como private são implicitamente finais. 
+
+Enum: (Java): Cria um Enum que irá ficar com os dados fixos. que só possui textos ou numeros separados por vírgula em letra maiúscula.
+POr exemplo: FEMININO,MASCULINO;
+
+Interface: "Classe" Abstrata com métodos abstratos que adota comportamentos. Implementa classes através do "implements".
+Polimorfismo: é a capacidade de um objeto poder ser referenciado de várias formas. 
+
+**a partir do Java 8 da pra programar dentro da interface.( Default Methods)
+
+
+
+
+
+
+
