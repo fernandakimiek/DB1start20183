@@ -1,0 +1,18 @@
+DB1start aula Java : 10/12/2018
+
+Maven - formato pom.xml 
+ -> estrutura do projeto ( tem uma estrutura padrão de pastas separadas)
+ -> gerenciamento de dependências
+ -> Build (.JAR /.WAR)
+
+Repositório Maven: https://mvnrepository.com/
+
+JPA:Java Persistence API
+- Para salvar no banco de dados precisa ser Enitidades. declarar o @Entity no código.
+@Column para criar colunas ex: @Column(name = "complemento", length =20, nullable = false)
+-Para Gerenciar os banco de dados usa o Entity Manager -> abre transações, salva entidades no banco, cria banco de dados de forma automática.
+- para usar o Entity manager precisa do entity manager Factory.
+- persistence XML.
+
+windows: usa o docker toolbox para fazer conexão virtualmente com banco de dados sem instalar o programa.
+site:docker hub 

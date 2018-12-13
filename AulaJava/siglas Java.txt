@@ -1,0 +1,50 @@
+DB1 Start
+Aula 10 : 30/11/2018
+
+dúvidas sobre Java:
+
+Java:
+
+Junit:
+JME: Java Micro Edition (Para dispositivos embarcados) - sem interface gráfica
+JRE:
+JPA:Java Persistence API (Biblioteca)
+JWT:
+JDK:
+JSP: ( não usa mais) programação web
+JSF: (não usa mais) programção web
+JCP: Java Community Process ( mecanismo que deixa o Java livre)
+JME:
+JVM:
+JDBC: Java Data Base Connection ( conexão com banco de dados)
+JEE: Java Enterprise Edition (WEB)
+JSE: Java Standard Edition ( com interface gráfica) > FX:Para programas Desktop / Swing:Para programas Desktop ( mais antigo)
+Servelet:Não se usa mais.
+JSTL:
+FX:Para programas Desktop
+Swing:Para programas Desktop ( mais antigo)
+Log4J: Biblioteca que dá pra por no programa Java, que mostra os erros em detalhes.
+Spring:
+Enum:
+ORM: Object Relationtip Management( biblioteca) para conexão com o JDBC
+Hibernate: Biblioteca ORM que conecta com JDBC
+Struts: Framework Java ( não usa mais)
+PrimeFaces: framework de frontend para Java ( não se usa mais)
+RightFaces: framework web para Java( não se usa mais)
+Framework: são pacotes prontos de códigos que podem ser usados na programação.
+WAR: arquivo versão web para java
+EAR: arquivo versão web do Java
+JAR:arquivo Java
+
+JWT:Formas de gerar os Tokens ( que faz a validação)
+
+ RestFul: Ligado com o HTTP
+Micro serviços: arquitetura de sistema que quebra em vários serviços que podem ser trabalhados em partes sem afetar o programa todo.
+HTTP: protocolo que faz a conexão web
+Json:linguagem metadados para comunicar pelo http ( mais leve que XML)
+XML:linguagem metadados para comunicar pelo http 
+JS: JavaScript ( linguagem programção web dinâmico) interação
+HTML: Linguagem de programação web (estático)
+CSS: parte estética da web
+
+
